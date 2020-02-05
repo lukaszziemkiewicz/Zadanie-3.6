@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade&display=swap');
+
+/*Variables*/
+
+$font-header:'Signika', sans-serif;
+$font-text:'Inconsolata', monospace;
+
+/*Global*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:$font-text;
+    
+}
+.container {
+    max-width:1140px;
+    padding:0 20px;
+    margin:0 auto;
+}
+
+
+/*Top-page*/
+
+.top-page{
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("https://i.postimg.cc/g2jXt0kJ/sport-game-match-brasil-41257.jpg");
+    background-repeat: no-repeat;
+    background-color:grey;
+    font-family:$font-header;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    background-color:none;
+    p{
+        display: inline-block;
+        padding:30px 18px;
+        font-size: 30px;
+        font-family:'Jim Nightshade', cursive;
+        color:yellow;
+    }
+    nav {
+        ul {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+                font-family:$font-header;
+            }
+            a:hover {
+                color: rgb(170, 212, 14);
+            }
+            li {
+                display: inline-block;
+                padding:30px 18px;
+                font-size: 20px;
+                text-decoration: none;
+            }
+            
+        }
+    }
+}
+.splash {
+    color:white;
+    min-height:300px;
+    display: flex;
+    .splash-inner {
+    margin: auto;
+    text-align:center;
+    padding-top: 130px;
+    }
+    h1, h3,  {
+        line-height:2;
+        margin:auto;
+        font-family:$font-header;
+    }
+    h1 {
+        font-size:40px;
+    }
+    h3 {
+        font-size:20px;
+    }
+    .btn {
+        font-size:27px;
+        padding:5px;
+        margin-top: 40px;
+        color:white;
+        background-color: rgb(255, 230, 0);
+        border-radius: 5px;
+        border:none;
+    }
+
+}
