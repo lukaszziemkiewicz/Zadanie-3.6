@@ -88,7 +88,7 @@ header nav ul li {
 .splash .splash-inner {
   margin: auto;
   text-align: center;
-  padding-top: 130px;
+  padding-top: 100px;
 }
 
 .splash h1, .splash h3 {
@@ -154,5 +154,118 @@ h2 {
   border-radius: 50%;
   line-height: 1.6;
   margin: auto;
+}
+
+/*our-portfolio*/
+.our-portfolio {
+  padding: 5px 0;
+  text-align: center;
+}
+
+.our-portfolio .card {
+  margin-bottom: 3px;
+  padding: 5px;
+}
+
+.our-portfolio .card h3 {
+  text-align: center;
+  font: "Signika", sans-serif;
+}
+
+.our-portfolio .card .card-image {
+  height: 300px;
+}
+
+.our-portfolio .card .card-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*footer*/
+.page-footer .row div {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.page-footer .row ul {
+  list-style-type: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 30px 0;
+}
+
+.page-footer .row ul li {
+  font-size: 0;
+  padding: 0 5px 0;
+}
+
+.page-footer .row ul li i {
+  background-color: black;
+  font-size: 20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  text-decoration: underline;
+  -webkit-text-decoration-color: black;
+          text-decoration-color: black;
+}
+
+.page-footer .row ul li i a {
+  text-decoration: none;
+}
+
+/* Media */
+@media (max-width: 767px) and (max-width: 991px) {
+  .top-page header p {
+    padding: 5px;
+  }
+  .top-page header nav ul li {
+    padding: 10px;
+  }
+  .splash {
+    min-height: 200px;
+  }
+  .splash .splash-inner {
+    padding-top: 50px;
+  }
+  .splash h1, .splash h3 {
+    line-height: 2;
+    margin: auto;
+    font-family: "Signika", sans-serif;
+  }
+  .splash h1 {
+    font-size: 40px;
+  }
+  .splash h3 {
+    font-size: 20px;
+  }
+  .splash .btn {
+    font-size: 27px;
+    padding: 5px;
+    margin-top: 40px;
+    color: white;
+    background-color: #ffe600;
+    border-radius: 5px;
+    border: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */
